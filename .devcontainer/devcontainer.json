@@ -1,0 +1,28 @@
+{
+	"initializeCommand": "make image",
+	"name": "Demo",
+	"context": ".",
+	"image": "deltaflow-on-artiq",
+	"workspaceMount": "src=${localWorkspaceFolder},dst=/workdir,type=bind",
+	"workspaceFolder": "/workdir",
+	"runArgs": [
+		"--interactive",
+		"--tty",
+		"--rm",
+		"--name", "deltaflow-dev",
+		"--volume", "${env:HOME}/.ssh:${env:HOME}/.ssh:ro"
+	],
+	"settings": {
+		"terminal.integrated.shell.linux": "/bin/bash",
+		"python.linting.pylintEnabled": true,
+		"python.linting.enabled": true,
+		"workbench.editor.enablePreview": true
+	},
+	"extensions": [
+		"ms-python.python",
+		"njpwerner.autodocstring",
+		"mhutchie.git-graph",
+		"eamodio.gitlens"
+	],
+	"overrideCommand": false
+}

@@ -1,0 +1,16 @@
+# Build
+build/*
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data
+*.vcd
+*.png
+
+# Docker
+container
+
+# Docs
+docs/_build/
+*.log

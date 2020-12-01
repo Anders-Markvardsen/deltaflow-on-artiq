@@ -1,0 +1,15 @@
+[submodule "emulator/artiq"]
+	path = emulator/artiq
+	url = https://github.com/riverlane/artiq.git
+[submodule "emulator/mor1kx"]
+	path = emulator/mor1kx
+	url = https://github.com/openrisc/mor1kx.git
+[submodule "deltamodels"]
+	path = deltamodels
+	url = https://github.com/riverlane/deltamodels.git
+[submodule "deltasimulator"]
+	path = deltasimulator
+	url = https://github.com/riverlane/deltasimulator.git
+[submodule "deltalanguage"]
+	path = deltalanguage
+	url = https://github.com/riverlane/deltalanguage.git
