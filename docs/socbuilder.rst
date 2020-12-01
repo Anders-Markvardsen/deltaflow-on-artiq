@@ -11,7 +11,9 @@ HAL Interface
 +++++++++++++
 
 - :code:`artiq_hal_interface.py` defines the bridge that exposes the Hardware
-  Abstraction Layer to the outside world. This block receives HAL commands and return measurements.
+  Abstraction Layer to the outside world. This block receives HAL commands and 
+  return measurements. Please refer to :doc:`hardware_abstraction_layer` for 
+  more info about the HAL.
 
 Platform and configuration
 ++++++++++++++++++++++++++

@@ -2,10 +2,8 @@ name: docs_pages_workflow
 
 on:
   push:
-    branches:    
+    branches:
       - dev
-    tags:        
-      - v*
 
 jobs: 
   build_docs_job:
