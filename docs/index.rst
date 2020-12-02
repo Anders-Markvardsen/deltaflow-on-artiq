@@ -125,7 +125,7 @@ components:
 +--------------------+-----------+
 | |Deltasimulator|_  | v0.3.0    |
 +--------------------+-----------+
-| |Deltamodels|_     | v0.3.0    |
+| |Deltamodels|_     | v0.3.2    |
 +--------------------+-----------+
 
 .. TODO:: Automate this version extraction from the packages.
