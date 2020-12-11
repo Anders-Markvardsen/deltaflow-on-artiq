@@ -33,7 +33,7 @@ What is Deltaflow and Deltaflow-on-ARTIQ?
 |Deltaflow| sees the quantum computer as a distributed control system with
 CPUs, FPGAs, analogue units, and qubits working under tight latency
 constraints.
-The Deltaflow language lets the user to define a graph of nodes representing
+The Deltaflow language lets the user define a graph of nodes representing
 the different elements of computation and interconnect them.
 The Deltaflow simulator and runtime take care of mapping a Deltaflow graph
 onto simulated or real hardware respectively.
@@ -95,8 +95,7 @@ We recomment to follow these steps:
 
 - [Optional] Get familiar with |Deltasimulator|_ and |Deltamodels|_ by
   following their manuals.
-  At the moment they do not provide in-depth information and meant to be
-  explained later.
+  At the moment they do not provide in-depth information.
 
 - Go through :doc:`examples` to learn about Deltaflow-on-ARTIQ by doing
   the same Rabi Oscillations Demo in 3 different ways:
